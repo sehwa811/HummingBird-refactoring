@@ -1,0 +1,6 @@
+.textInput {
+    border: solid rgba(173, 173, 173, 0.40);
+    border-width: 0px;
+    border-bottom-width: 2px;
+    outline-width: 0px;
+}

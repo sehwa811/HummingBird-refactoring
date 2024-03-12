@@ -1,0 +1,51 @@
+.select-box > div .MuiInputBase-root {
+  padding: 0.75rem;
+  font-family: "Pretendard-Regular";
+  font-weight: 550;
+}
+
+.isSelected > div .css-l4u8b9-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 2px solid black;
+}
+
+.isSelected > div .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 2px solid black;
+}
+
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 2px solid rgba(173, 173, 173, 0.40);
+}
+
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 2px solid #ab74ff;
+}
+
+
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-1h51icj-MuiAutocomplete-root .MuiAutocomplete-inputRoot:hover {
+  border-bottom: none;
+}
+
+
+.date > label {
+  font-family: "Pretendard-Regular";
+  color:#A5A5A5;
+}
+
+/* datepicker label color */
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #ab74ff;
+}
+
+.css-l4u8b9-MuiInputBase-root-MuiInput-root.Mui-hover {
+  color: #ab74ff;
+}
+
+
+select-box > fieldset .css-1epml8a-MuiFormControl-root-MuiTextField-root .MuiOutlinedInput-root  {
+  border-color: black;
+}
+
+.isSelected > .css-1epml8a-MuiFormControl-root-MuiTextField-root .MuiOutlinedInput-root fieldset {
+  border-color: black;
+}

@@ -1,0 +1,138 @@
+.carousel-list {
+  padding-left: 10px;
+}
+
+.carousel-container {
+}
+.main-post-title {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 20px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main-post-artist {
+  font-size: 16px;
+  font-weight: 400;
+  color: #a5a5a5;
+  padding: 0 20px 10px;
+}
+.main-post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: -8px;
+  cursor: pointer;
+  width: 100%;
+}
+.main-poster-image {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 280px;
+}
+
+.main-item {
+  transform: scale(0.85);
+  display: flex;
+  align-items: center;
+}
+
+.react-multi-carousel-item--active.main-item {
+  transform: scale(1);
+  z-index: 2;
+}
+.main-item[data-index="0"].react-multi-carousel-item--active {
+  margin-left: 10%;
+}
+
+.main-item h1,
+h3 {
+  display: none;
+}
+
+.react-multi-carousel-item--active.main-item h1,
+.react-multi-carousel-item--active.main-item h3 {
+  display: block;
+}
+
+.custom-button {
+  background-color: #AB74FF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 14px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: normal;
+  width: 90%;
+}
+
+.arrow {
+  margin-left: 10px;
+  width: 70vw;
+}
+
+.artist-image {
+  width: 108px;
+  height: 108px;
+  object-fit: cover; /* to make sure the image is always centered and covering the container */
+  margin-bottom: 10px; /* spacing between image and name */
+  border-radius: 50%; /* rounded corners as per your style request */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional: a little shadow for depth */
+  cursor: pointer;
+}
+.carouselTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-weight: bolder;
+}
+
+.cardsTitle {
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+
+.moreButton {
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.active-dot {
+  margin: 0 3px;
+  width: 8px;
+  height: 8px;
+  background-color: #191926;
+  border-radius: 50%;
+}
+
+.inactive-dot {
+  margin: 0 3px;
+  width: 8px;
+  height: 8px;
+  background-color: #DFDFDF;
+  border-radius: 50%;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.fade-out {
+  animation: fadeOut 2s forwards;
+}

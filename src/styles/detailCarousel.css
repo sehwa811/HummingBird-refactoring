@@ -1,0 +1,25 @@
+.album-carousel-container {
+  padding-left: 10px;
+}
+
+.album-carousel-item {
+  margin: 0 10px;
+  width: 169px !important;
+}
+
+.album-carousel-slider {
+  overflow-x: auto;
+}
+
+.performance-carousel-container {
+  padding-left: 10px;
+}
+
+.performance-carousel-item {
+  margin: 0 10px;
+  width: 168px !important;
+}
+
+.performance-carousel-slider {
+  overflow-x: auto;
+}

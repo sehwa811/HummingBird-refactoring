@@ -1,0 +1,23 @@
+.concert-details-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.concert-details-poster {
+  width: 100%;
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.concert-details {
+  position: absolute;
+  background: #f0f0f0;
+  border-radius: 10px;
+  top: 40vh;
+  width: 100%;
+  z-index: 2;
+  overflow: scroll;
+}

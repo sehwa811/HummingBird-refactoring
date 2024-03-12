@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-style: normal;
+}
+
+body {
+  max-width: 430px;
+  min-width: 320px;
+  overflow-x: hidden;
+  margin: auto;
+  font-family: 'Pretendard-Regular', sans-serif;
+  padding-bottom: 50px;
+}
+
+.myHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 10px 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+}
+
+.headerPrev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+}
+
+h1 {
+  /*font-size: 1rem;*/
+  /*font-weight: bold;*/
+}
+button {
+  font-size: x-large;
+}
+
+@media (max-width: 200px) {
+  .user-icon {
+    display: none;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}

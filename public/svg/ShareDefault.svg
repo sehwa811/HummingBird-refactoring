@@ -1,0 +1,22 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="36" height="36" rx="18" fill="#F5F7FA"/>
+<path d="M23 11L10 18L23 25" stroke="#191926" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 11L10 18L23 25" stroke="black" stroke-opacity="0.2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 11L10 18L23 25" stroke="black" stroke-opacity="0.2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 11L10 18L23 25" stroke="black" stroke-opacity="0.2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="23" cy="11" r="3" fill="#F7F7F7"/>
+<circle cx="23" cy="11" r="3" stroke="#191926" stroke-width="1.6"/>
+<circle cx="23" cy="11" r="3" stroke="black" stroke-opacity="0.2" stroke-width="1.6"/>
+<circle cx="23" cy="11" r="3" stroke="black" stroke-opacity="0.2" stroke-width="1.6"/>
+<circle cx="23" cy="11" r="3" stroke="black" stroke-opacity="0.2" stroke-width="1.6"/>
+<circle cx="11" cy="18" r="3" fill="#F7F7F7"/>
+<circle cx="11" cy="18" r="3" stroke="#191926" stroke-width="1.6"/>
+<circle cx="11" cy="18" r="3" stroke="black" stroke-opacity="0.2" stroke-width="1.6"/>
+<circle cx="11" cy="18" r="3" stroke="black" stroke-opacity="0.2" stroke-width="1.6"/>
+<circle cx="11" cy="18" r="3" stroke="black" stroke-opacity="0.2" stroke-width="1.6"/>
+<circle cx="23" cy="24" r="3" fill="#F7F7F7"/>
+<circle cx="23" cy="24" r="3" stroke="#191926" stroke-width="1.6"/>
+<circle cx="23" cy="24" r="3" stroke="black" stroke-opacity="0.2" stroke-width="1.6"/>
+<circle cx="23" cy="24" r="3" stroke="black" stroke-opacity="0.2" stroke-width="1.6"/>
+<circle cx="23" cy="24" r="3" stroke="black" stroke-opacity="0.2" stroke-width="1.6"/>
+</svg>

@@ -1,0 +1,56 @@
+.concertListPosts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.poster-image {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 188px;
+  height: 270px;
+}
+
+.concert-details h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.concert-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.concertList-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
+}
+
+/* 공통 버튼 스타일 */
+.filter-button {
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  /*background-color: #f0f0f0;*/
+  color: #A5A5A5;
+  cursor: pointer;
+  margin-right: 8px; /* 오른쪽 여백 */
+  font-size: 14px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+/* 활성화된 버튼 스타일 */
+.filter-button.active {
+  background-color: #AB74FF;
+  color: #ffffff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
